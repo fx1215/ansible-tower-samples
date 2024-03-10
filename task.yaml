@@ -1,0 +1,4 @@
+---
+- name: 事实缓存学习
+  hosts: all
+  gather_facts: true
