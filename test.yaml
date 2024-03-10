@@ -1,0 +1,8 @@
+---
+- name: awx demo
+  hosts: all
+  tasks:
+    - name: yum htop
+      yum:
+        name: htop
+        state: installed
