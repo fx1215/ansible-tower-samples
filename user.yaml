@@ -5,4 +5,4 @@
   - name: create user
     user: 
       name: fxtest
-      password: "{{ hgjl3000P& | password_hash('sha512') }}"  
+      
