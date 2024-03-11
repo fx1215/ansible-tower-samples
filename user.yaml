@@ -5,6 +5,4 @@
   - name: create user
     user: 
       name: fxtest
-      password: "{{ item | password_hash('sha512') }}"
-    with_items: 
-      "{{hgjl3000P&}}"  
+      password: "{{ hgjl3000P& | password_hash('sha512') }}"  
