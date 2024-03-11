@@ -4,7 +4,7 @@
   tasks: 
   - name: create user
     user: 
-      name: fx123
-      password: "{{ item | password_hash('sha512')}}"
-    with_item: 
+      name: fxtest
+      password: "{{ item | password_hash('sha512') }}"
+    with_items: 
       "{{hgjl3000P&}}"  
