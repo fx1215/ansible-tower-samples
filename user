@@ -1,0 +1,10 @@
+---
+- name: create user
+  hosts: all
+  tasks: 
+  - name: create user
+    user: 
+      name: fx123
+      password: "{{ item | password_hash('sha512')}}"
+    with_item: 
+      "{{hgjl3000P&}}"  
