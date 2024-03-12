@@ -5,4 +5,4 @@
   - name: create user
     user: 
       name: fxtest
-      
+      state: present
