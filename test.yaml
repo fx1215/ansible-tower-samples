@@ -1,0 +1,7 @@
+---
+- name: awx demo
+  hosts: all
+  tasks:
+     - name: 调查问卷变量学习
+       debug:
+         msg: "{{ username  }}"
